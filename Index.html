@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webstudio</title>
+    <title>webstudio</title>
   </head>
 
   <body>
     <header>
-      <p class="title">WebStudio</p>
+      <a href="" class="title">WebStudio</a>
       <!-- navigation -->
-      <ul class="nav">
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
+      <nav class="nav">
+        <a href="">Студия</a>
+        <a href="">Портфолио</a>
+        <a href="">Контакты</a>
+      </nav>
       <!-- contacts -->
       <ul class="contacts">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -24,12 +24,10 @@
     </header>
 
     <main>
-      <!-- main information -->
       <section class="main">
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <button type="button">Заказать услугу</button>
       </section>
-      <!-- about company -->
       <section class="about">
         <!-- benefits -->
         <ul>
@@ -57,32 +55,52 @@
         <!-- workflow photos -->
         <h2>Чем мы занимаемся</h2>
         <ul class="workflow_photos">
-          <li><img src="" /></li>
-          <li><img src="" /></li>
-          <li><img src="" /></li>
+          <li>
+            <img
+              src="img/workflow1.jpg"
+              alt="man writes code at the computer"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="img/workflow2.jpg"
+              alt="mobile app developer with phone in hand"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li>
+            <img
+              src="img/workflow3.jpg"
+              alt="man holding a tablet with an open palette on it"
+              width="370"
+              height="294"
+            />
+          </li>
         </ul>
       </section>
-      <!-- development team -->
-      <section class="team">
+      <section class="command">
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="" />
+            <img src="img/team1.jpg" alt="photo of Ihor Demyanenko" width="270" height="260" />
             <p class="name">Игорь Демьяненко</p>
             <p class="position">Product Designer</p>
           </li>
           <li>
-            <img src="" />
+            <img src="img/team2.jpg" alt="photo of Olha Repina" width="270" height="260" />
             <p class="name">Ольга Репина</p>
             <p class="position">Frontend Developer</p>
           </li>
           <li>
-            <img src="" />
+            <img src="img/team3.jpg" alt="photo of Nikolai Tarasov" width="270" height="260" />
             <p class="name">Николай Тарасов</p>
             <p class="position">Marketing</p>
           </li>
           <li>
-            <img src="" />
+            <img src="img/team4.jpg" alt="photo of Mihail Ermakov" width="270" height="260" />
             <p class="name">Михаил Ермаков</p>
             <p class="position">UI Designer</p>
           </li>
@@ -91,10 +109,10 @@
     </main>
 
     <footer>
-      <p class="title">WebStudio</p>
+      <a href="" class="title">WebStudio</a>
       <p>г. Киев, пр-т Леси Украинки, 26</p>
-      <p>info@example.com</p>
-      <p>+38 099 111 11 11</p>
+      <p><a href="mailto:info@example.com">info@example.com</a></p>
+      <p><a href="tel:+380991111111">+38 099 111 11 11</a></p>
     </footer>
   </body>
 </html>
